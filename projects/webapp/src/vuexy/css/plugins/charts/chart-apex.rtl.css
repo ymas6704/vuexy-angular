@@ -1,0 +1,240 @@
+html[dir="rtl"] .apexcharts-canvas line[stroke="transparent"] {
+  display: none;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-tooltip {
+  background: #ffffff;
+  border-color: #ebe9f1;
+}
+
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-tooltip
+  .apexcharts-tooltip-title {
+  background: #ffffff !important;
+  border-color: #ebe9f1 !important;
+  font-weight: 600;
+}
+
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-tooltip.apexcharts-theme-dark
+  .apexcharts-tooltip-text-label,
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-tooltip.apexcharts-theme-dark
+  .apexcharts-tooltip-text-value {
+  color: #ffffff;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-xaxistooltip,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-yaxistooltip {
+  background: #f8f8f8;
+  border-color: #ebe9f1;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-xaxistooltip:after,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-xaxistooltip:before,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-yaxistooltip:after,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-yaxistooltip:before {
+  border-bottom-color: #f8f8f8;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-text,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-tooltip-text,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-datalabel-label,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-datalabel {
+  font-family: "Montserrat", Helvetica, Arial, serif !important;
+  fill: #6e6b7b;
+  font-weight: 400;
+  -webkit-filter: none;
+  filter: none;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-pie-label {
+  fill: white;
+  -webkit-filter: none;
+  filter: none;
+}
+
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-pie
+  .apexcharts-pie-series
+  .apexcharts-pie-area {
+  stroke-width: 0;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-label,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-value {
+  font-size: 1.5rem;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-marker {
+  box-shadow: none;
+}
+
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-legend-series
+  + .apexcharts-legend-series {
+  margin-top: 0.625rem;
+}
+
+html[dir="rtl"]
+  .apexcharts-canvas
+  .apexcharts-legend-series
+  .apexcharts-legend-text {
+  margin-right: 0.5rem;
+  color: #6e6b7b !important;
+  font-size: 1rem !important;
+}
+
+html[dir="rtl"] .apexcharts-canvas .apexcharts-xcrosshairs,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-ycrosshairs,
+html[dir="rtl"] .apexcharts-canvas .apexcharts-gridline {
+  stroke: #ebe9f1;
+}
+
+html[dir="rtl"] .apexcharts-legend.position-bottom {
+  bottom: 3rem;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xaxis-tick,
+html[dir="rtl"] .dark-layout .apexcharts-canvas line {
+  stroke: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-heatmap
+  .apexcharts-heatmap-rect {
+  stroke: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-radialbar
+  .apexcharts-radialbar-track
+  .apexcharts-radialbar-area {
+  stroke: #161d31;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-radar-series
+  polygon {
+  fill: #161d31;
+  stroke: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-datalabels-group
+  .apexcharts-datalabel-value {
+  fill: #ffffff;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-tooltip {
+  background: #283046;
+  border-color: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-tooltip
+  .apexcharts-tooltip-title {
+  background: #283046 !important;
+  border-color: #3b4253 !important;
+  color: #ffffff;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-tooltip
+  .apexcharts-tooltip-text-label,
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-tooltip
+  .apexcharts-tooltip-text-value {
+  color: #ffffff;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip {
+  background: #161d31;
+  border-color: #3b4253;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip:after,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip:before,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip:after,
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-yaxistooltip:before {
+  border-bottom-color: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-xaxistooltip
+  .apexcharts-xaxistooltip-text,
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-xaxistooltip
+  .apexcharts-yaxistooltip-text,
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-yaxistooltip
+  .apexcharts-xaxistooltip-text,
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-yaxistooltip
+  .apexcharts-yaxistooltip-text {
+  color: #ffffff;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-xaxistooltip
+  .apexcharts-xaxistooltip-text {
+  color: #ffffff;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-yaxis-label,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xaxis-label,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-tooltip-text,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-datalabel-label {
+  fill: #b4b7bd;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-marker {
+  stroke: #3b4253;
+}
+
+html[dir="rtl"]
+  .dark-layout
+  .apexcharts-canvas
+  .apexcharts-legend-series
+  .apexcharts-legend-text {
+  color: #b4b7bd !important;
+}
+
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-xcrosshairs,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-ycrosshairs,
+html[dir="rtl"] .dark-layout .apexcharts-canvas .apexcharts-gridline {
+  stroke: #3b4253;
+}

@@ -1,0 +1,59 @@
+html[dir="ltr"] .bordered-layout .header-navbar {
+  box-shadow: none;
+}
+
+html[dir="ltr"] .bordered-layout .header-navbar.floating-nav {
+  border: 1px solid #ebe9f1;
+}
+
+html[dir="ltr"] .bordered-layout .header-navbar.fixed-top {
+  border-bottom: 1px solid #ebe9f1;
+  background: #f8f8f8;
+}
+
+html[dir="ltr"] .bordered-layout .main-menu {
+  border-right: 1px solid #ebe9f1;
+  box-shadow: none;
+}
+
+html[dir="ltr"]
+  .bordered-layout
+  .main-menu.menu-light
+  .navigation
+  > li.open:not(.menu-item-closing)
+  > a,
+html[dir="ltr"]
+  .bordered-layout
+  .main-menu.menu-light
+  .navigation
+  > li.sidebar-group-active
+  > a {
+  background: #ededed;
+}
+
+html[dir="ltr"] .bordered-layout .dropdown-menu {
+  border: 1px solid #ebe9f1 !important;
+  box-shadow: none;
+}
+
+html[dir="ltr"] .bordered-layout .main-menu .navigation,
+html[dir="ltr"] .bordered-layout .main-menu {
+  background: #f8f8f8;
+}
+
+html[dir="ltr"] .bordered-layout .card,
+html[dir="ltr"]
+  .bordered-layout
+  .bs-stepper:not(.wizard-modern):not(.checkout-tab-steps),
+html[dir="ltr"] .bordered-layout .bs-stepper.wizard-modern .bs-stepper-content {
+  border: 1px solid #ebe9f1;
+  box-shadow: none;
+}
+
+html[dir="ltr"] .bordered-layout .footer {
+  box-shadow: none !important;
+}
+
+html[dir="ltr"] .bordered-layout .footer-fixed .footer {
+  border-top: 1px solid #ebe9f1;
+}

@@ -1,0 +1,272 @@
+html[dir="ltr"] #toast-container > div {
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: alpha(opacity=100);
+  max-width: none;
+  border-radius: 0.286rem;
+}
+
+html[dir="ltr"] #toast-container > div,
+html[dir="ltr"] #toast-container > div:hover {
+  box-shadow: 0 2px 20px 0 rgba(34, 41, 47, 0.08);
+}
+
+html[dir="ltr"] #toast-container > .toast {
+  background-image: none !important;
+}
+
+html[dir="ltr"] .toast {
+  background-color: #ffffff;
+  color: #6e6b7b !important;
+}
+
+html[dir="ltr"] .toast .toast-close-button {
+  color: #6e6b7b;
+  font-size: 1.75rem;
+  font-weight: 400;
+  top: 0;
+  right: 0;
+  text-shadow: none;
+}
+
+html[dir="ltr"] .toast .toast-close-button:focus {
+  outline: none;
+}
+
+html[dir="ltr"] .toast .toast-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+html[dir="ltr"] .toast .toast-progress {
+  opacity: 1;
+}
+
+html[dir="ltr"] .toast:before {
+  content: "";
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  left: 1rem;
+}
+
+html[dir="ltr"] .toast:after {
+  content: "";
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1.38rem;
+  top: 1.44rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+html[dir="ltr"] .toast-success .toast-title {
+  color: #28c76f;
+}
+
+html[dir="ltr"] .toast-success .toast-progress {
+  background-color: #28c76f;
+}
+
+html[dir="ltr"] .toast-success:before {
+  background-color: #28c76f;
+}
+
+html[dir="ltr"] .toast-success:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-check'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+html[dir="ltr"] .toast-error .toast-title {
+  color: #ea5455;
+}
+
+html[dir="ltr"] .toast-error .toast-progress {
+  background-color: #ea5455;
+}
+
+html[dir="ltr"] .toast-error:before {
+  background-color: #ea5455;
+}
+
+html[dir="ltr"] .toast-error:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-x'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+}
+
+html[dir="ltr"] .toast-info .toast-title {
+  color: #00cfe8;
+}
+
+html[dir="ltr"] .toast-info .toast-progress {
+  background-color: #00cfe8;
+}
+
+html[dir="ltr"] .toast-info:before {
+  background-color: #00cfe8;
+}
+
+html[dir="ltr"] .toast-info:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-info'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='16' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'%3E%3C/line%3E%3C/svg%3E");
+}
+
+html[dir="ltr"] .toast-warning .toast-title {
+  color: #ff9f43;
+}
+
+html[dir="ltr"] .toast-warning .toast-progress {
+  background-color: #ff9f43;
+}
+
+html[dir="ltr"] .toast-warning:before {
+  background-color: #ff9f43;
+}
+
+html[dir="ltr"] .toast-warning:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-alert-triangle'%3E%3Cpath d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z'%3E%3C/path%3E%3Cline x1='12' y1='9' x2='12' y2='13'%3E%3C/line%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'%3E%3C/line%3E%3C/svg%3E");
+}
+
+html[dir="ltr"] .toast-top-left {
+  top: 1.3rem;
+  left: 2rem;
+}
+
+html[dir="ltr"] .toast-top-right {
+  top: 1.3rem;
+  right: 2rem;
+}
+
+html[dir="ltr"] .toast-top-center,
+html[dir="ltr"] .toast-top-full-width {
+  top: 1.3rem;
+}
+
+html[dir="ltr"] .toast-bottom-left {
+  bottom: 1.3rem;
+  left: 2rem;
+}
+
+html[dir="ltr"] .toast-bottom-right {
+  bottom: 1.3rem;
+  right: 2rem;
+}
+
+html[dir="ltr"] .toast-bottom-center,
+html[dir="ltr"] .toast-bottom-full-width {
+  bottom: 1.3rem;
+}
+
+@media (max-width: 480px) and (min-width: 241px) {
+  html[dir="ltr"] #toast-container > .toast:after {
+    top: 0.95rem;
+  }
+
+  html[dir="ltr"] #toast-container > .toast .toast-close-button {
+    top: 0;
+    right: -1px;
+  }
+
+  html[dir="ltr"] #toast-container > div {
+    width: 20rem;
+  }
+
+  html[dir="ltr"] .toast-top-left {
+    left: 0;
+  }
+
+  html[dir="ltr"] #toast-container.toast-top-center,
+  html[dir="ltr"] #toast-container.toast-bottom-center {
+    right: 1rem;
+  }
+
+  html[dir="ltr"] #toast-container.toast-top-center > div,
+  html[dir="ltr"] #toast-container.toast-bottom-center > div {
+    width: 20rem !important;
+  }
+
+  html[dir="ltr"] .toast-top-full-width,
+  html[dir="ltr"] .toast-bottom-full-width {
+    right: 0;
+    left: 0;
+    width: 93%;
+  }
+
+  html[dir="ltr"] .toast-top-full-width > div,
+  html[dir="ltr"] .toast-bottom-full-width > div {
+    width: 100%;
+  }
+
+  html[dir="ltr"] .toast-bottom-left {
+    left: 0.25rem;
+    bottom: 0.75rem;
+  }
+
+  html[dir="ltr"] .toast-bottom-right {
+    right: 2.25rem;
+    bottom: 0.75rem;
+  }
+
+  html[dir="ltr"] .toast-bottom-center,
+  html[dir="ltr"] .toast-bottom-full-width {
+    bottom: 0.75rem;
+  }
+
+  html[dir="ltr"] [data-textdirection="rtl"] #toast-container > div {
+    padding-right: 8px;
+  }
+}
+
+html[dir="ltr"] .dark-layout #toast-container > div,
+html[dir="ltr"] .dark-layout #toast-container > div:hover {
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.24);
+}
+
+html[dir="ltr"] .dark-layout #toast-container .toast {
+  background-color: #283046;
+  color: #b4b7bd !important;
+}
+
+html[dir="ltr"] .dark-layout #toast-container .toast .toast-close-button {
+  color: #b4b7bd;
+}
+
+@media (max-width: 575.98px) {
+  html[dir="ltr"] [data-textdirection="rtl"] .toast .toast-close-button {
+    top: 0.55rem !important;
+    right: 0.5rem !important;
+  }
+}
+
+html[dir="ltr"] [data-textdirection="rtl"] .toast-top-left {
+  left: 1rem;
+  right: auto;
+}
+
+html[dir="ltr"] [data-textdirection="rtl"] .toast-top-right {
+  right: 3rem;
+  left: auto;
+}
+
+html[dir="ltr"] [data-textdirection="rtl"] .toast-bottom-left {
+  left: 1em;
+  right: auto;
+}
+
+html[dir="ltr"] [data-textdirection="rtl"] .toast-bottom-right {
+  right: 3rem;
+  left: auto;
+}
+
+html[dir="ltr"]
+  [data-textdirection="rtl"]
+  .toast-top-full-width#toast-container
+  > div,
+html[dir="ltr"]
+  [data-textdirection="rtl"]
+  .toast-bottom-full-width#toast-container
+  > div {
+  left: 0;
+  right: 0;
+}
